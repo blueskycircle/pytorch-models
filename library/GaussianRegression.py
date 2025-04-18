@@ -3,9 +3,9 @@ import torch.nn as nn
 import numpy as np
 
 
-class GaussianModel(nn.Module):
+class GaussianRegression(nn.Module):
     def __init__(self, example_x):
-        super(GaussianModel, self).__init__()
+        super(GaussianRegression, self).__init__()
         input_dim = example_x.shape[-1]  # Deduce the number of predictors
         self.beta = nn.Parameter(
             torch.randn(input_dim + 1, 1)

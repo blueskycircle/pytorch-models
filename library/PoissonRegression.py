@@ -2,9 +2,9 @@ import torch
 import torch.nn as nn
 
 
-class PoissonModel(nn.Module):
+class PoissonRegression(nn.Module):
     def __init__(self, example_x):
-        super(PoissonModel, self).__init__()
+        super(PoissonRegression, self).__init__()
         input_dim = example_x.shape[-1]  # Deduce number of predictors
         # Initialize fixed effects vector β (including intercept)
         self.beta = nn.Parameter(torch.randn(input_dim + 1, 1))
