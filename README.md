@@ -12,12 +12,7 @@ Gaussian regression uses a likelihood based on the Gaussian distribution.
 
 The model that we'll fit is:
 
-$$
-\begin{align*}
-y_{i} &\sim \textrm{Normal}(\mu_{i}, \sigma^{2}) ~~~ \textrm{for}~ i=1, ..., N, \\
-\mu_{i} &= \boldsymbol{x}_{i}^{\top} \boldsymbol{\beta}, 
-\end{align*}
-$$
+![Gaussian Regression Equation](https://latex.codecogs.com/png.latex?\dpi{110}\begin{aligned}y_{i}&\sim\text{Normal}(\mu_{i},\sigma^{2})\quad\text{for } i=1,\dots,N,\\\mu_{i}&=\boldsymbol{x}_{i}^{\top}\boldsymbol{\beta}\end{aligned})
 
 where 
 
