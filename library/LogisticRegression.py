@@ -21,7 +21,5 @@ class LogisticRegression(nn.Module):
         y = y.view_as(logits)
         # Compute predictions using the sigmoid function
         p = torch.sigmoid(logits)
-        # For numerical stability, add a small epsilon inside the logarithms
-        eps = 1e-8
-        loss = -(y * torch.log(p + eps) + (1 - y) * torch.log(1 - p + eps)).sum()
+        loss = -(y * torch.log(p) + (1 - y) * torch.log(1 - p)).sum()
         return loss
