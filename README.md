@@ -17,7 +17,7 @@ Below is an example of PyTorch results for a Gaussian regression with 1 covariat
 
 ## Poisson Regression
 
-![PoissonLatex](assets/GaussianLatex.png)
+![PoissonLatex](assets/PoissonLatex.png)
 
 Below is an example of PyTorch results for a Poisson regression with 1 covariate.
 
