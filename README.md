@@ -45,8 +45,8 @@ The log-likelihood is
 
 $$
 \begin{align*}
-\textrm{log}(L(\mu_{i}, \sigma; y_{i})) &= \sum_{i=1}^{N}\textrm{log} \left[ \sigma^{-1} (2\pi)^{-0.5}\exp\left( -\frac{1}{2\sigma^{2}} (y_{i}-\boldsymbol{x}_{i}^{\top} \boldsymbol{\beta})^2 \right) \right] \\
-&= - \sum_{i=1}^{N}\left[ \textrm{log}(\sigma) + 0.5 \textrm{log}(2\pi) + \frac{1}{2\sigma^{2}} (y_{i}-\boldsymbol{x}_{i}^{\top} \boldsymbol{\beta})^2 \right]
+\textrm{log}(L(\mu_{i}, \sigma; y_{i})) &= \sum_{i=1}^{N}\textrm{log} \bigg[ \sigma^{-1} (2\pi)^{-0.5}\exp\bigg( -\frac{1}{2\sigma^{2}} (y_{i}-\boldsymbol{x}_{i}^{\top} \boldsymbol{\beta})^2 \bigg) \bigg] \\
+&= - \sum_{i=1}^{N}\bigg[ \textrm{log}(\sigma) + 0.5 \textrm{log}(2\pi) + \frac{1}{2\sigma^{2}} (y_{i}-\boldsymbol{x}_{i}^{\top} \boldsymbol{\beta})^2 \bigg]
 \end{align*}
 $$
 
