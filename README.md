@@ -26,7 +26,7 @@ Below is an example of PyTorch results for a Poisson regression with 1 covariate
 
 ## Logistic Regression
 
-![LogisticLatex](assets/PoissonLatex.png)
+![LogisticLatex](assets/LogisticLatex.png)
 
 ## Beta Regression
 
