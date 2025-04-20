@@ -5,6 +5,7 @@ A collection of models implemented in PyTorch.
 ## Table of Contents
 - [Gaussian Regression](#gaussian-regression)
 - [Poisson Regression](#poisson-regression)
+- [Logistic Regression](#logistic-regression)
 - [Beta Regression](#beta-regression)
 
 ## Gaussian Regression
@@ -22,6 +23,10 @@ Below is an example of PyTorch results for a Gaussian regression with 1 covariat
 Below is an example of PyTorch results for a Poisson regression with 1 covariate.
 
 ![PoissonRegression](assets/PoissonRegression.png)
+
+## Logistic Regression
+
+![LogisticLatex](assets/PoissonLatex.png)
 
 ## Beta Regression
 
