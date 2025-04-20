@@ -39,7 +39,7 @@ Below is an example of PyTorch results for a Beta regression with 1 covariate.
 
 ## GAM Gaussian Regression
 
-![BetaLatex](assets/BetaLatex.png)
+![GAMGaussianLatex](assets/GAMGaussianLatex.png)
 
 Below is an example of PyTorch results with 1 covariate.
 
